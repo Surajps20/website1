@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:azure;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .image-grid img {
+            display: block;
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        p {
+            margin-top: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        a {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="image-grid">
+        <div>
+            <p>College view:</p>
+            <img src="CLGview.jpg" alt="College view" width="500" height="300">
+        </div>
+        <div>
+            <p>Aerial view:</p>
+            <img src="CLGArial View.jpg" width="500">
+        </div>
+        <div>
+            <p>CSE Department:</p>
+            <img src="CLGCSE.jpg" width="500">
+        </div>
+        <div>
+            <p>Indoor Stadium:</p>
+            <img src="CLGIndoorStadium.jpg" width="500">
+        </div>
+        <div>
+            <p>Placement Cell:</p>
+            <img src="CLGplacementcell.jpg" width="500">
+        </div>
+    </div>
+
+    <a href="jon.html">Go To Menu</a>
+
+</body>
+
+</html>
